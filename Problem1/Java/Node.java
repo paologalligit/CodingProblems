@@ -12,18 +12,6 @@ public class Node {
         this.next = next;
     }
 
-    public int getValue() {
-        return value;
-    }
-
-    public Node getNext() {
-        return next;
-    }
-
-    public void setNext(Node n) {
-        next = n;
-    }
-
     public static Node reverseInPlace(Node root) {
         Node result = null;
 
